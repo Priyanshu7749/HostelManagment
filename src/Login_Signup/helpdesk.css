@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-helpdesk{
+    height:350px;
+    width: 1230px;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* border: 3px solid black; */
+}
+
+
+.gunihelpdesk{
+  margin-left: 20px;
+  text-align: center;
+  color:darkolivegreen;
+  font-size: x-large;
+}
+
+
+
+.form-elements2{
+  justify-content: center;
+  margin-left: 340px;
+}
+/* .helpdesk-page{
+  display: flex;
+  font-family: cabin;
+  margin-left: 30px;
+  font-size:large;
+} */
+
+.helpdesk-page{
+    display: flex;
+    font-family: Cabin, sans-serif;
+    font-size: large;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Update */
+}
+
+.labelfiled {
+    /* padding: 9px; */
+    border-radius: 5px;
+    height: 40px;
+    width: 350px; /* Adjust width for responsiveness */
+    margin: 12px;
+    justify-content: flex-start; /* Update */
+    margin-left: 20px;
+}
+
+/* 
+.labelfiled{
+  justify-content: center;
+}
+
+.labelfiled{
+  padding: 9px;
+  border-radius: 5px;
+  /* border-color: black; */
+  /* height: 40px;
+  width: 410px;
+  margin: 12px;
+  justify-content: center;  */
+
+
+.category{
+  border: 2px solid black;
+  padding: 5px;
+}
+.Enrollment{
+  margin-left: 87px;
+}
+
+.Namefiled{
+  margin-left:110px ;
+}
+
+.Emailfiled{
+  margin-left:183px ;
+}
+
+.Mobilefiled{
+  margin-left:131px ;
+}
+
+.request{
+  margin-left:65px ;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.Help_topic{
+  margin-left:123px ;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.attachment{
+  margin-left: 95px;
+  
+}
+
+
+
+.Remark{
+  margin-left: 156px;
+}
+
+.Roomnumber{
+  margin-left: 135px;
+}
+
+.submitHelpButton{
+  height: 42px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: black; 
+  color: white;
+  font-weight: bolder;
+  margin-top: 12px;
+  cursor: pointer;
+  text-align: center;
+  margin-left:270px ;
+}

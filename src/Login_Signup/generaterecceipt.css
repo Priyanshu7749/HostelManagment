@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+.header {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .header {
+        flex-wrap: wrap;
+    }
+}
+
+.logo {
+    aspect-ratio: 3.45;
+    object-fit: auto;
+    object-position: center;
+    width: 217px;
+    max-width: 100%;
+    margin-left: 33px;
+    margin-top: 12px;
+}
+
+.nav-container1 {
+    display: flex;
+    margin-top: 18px;
+    gap: 20px;
+    margin-right: 22px;
+}
+
+@media (max-width: 991px) {
+    .nav-container1 {
+        flex-wrap: wrap;
+    }
+}
+
+.nav1 {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    padding: 0 20px;
+    margin-right: 12px;
+}
+
+@media (max-width: 991px) {
+    .nav1 {
+        flex-wrap: wrap;
+    }
+}
+
+.nav-item-active {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .nav-item-active {
+        white-space: initial;
+    }
+}
+
+.nav-link-active {
+    font-family: Cabin, sans-serif;
+}
+.nav-links{
+    margin-top: 22px;
+}
+
+
+.nav-link {
+    font-family: JejuGothic, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.nav-link-complaint {
+    font-family: JejuGothic, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.nav-link-hostel {
+    font-family: JejuGothic, sans-serif;
+    line-height: 135%;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.nav-link-contact {
+    font-family: JejuGothic, sans-serif;
+    line-height: 135%;
+}
+
+.profile-image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.head1 {
+    margin-top: 59px;
+    font-family: "Cabin", sans-serif;
+
+}
+
+.head3 {
+    color: red;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+.p1 {
+    color: red;
+    margin: 2px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.serialno{
+    font-size: 23.04px;
+    margin-top: 10px;
+}
+
+.sub-main {
+    margin-left: 44px;
+}
+
+.date {
+    /* margin-top: 22px; */
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 44px;
+
+}
+
+.d1 {
+    margin-left: 29px;
+    margin-top: 10px;
+}
+
+.form-elements {
+    margin-left: 44px;
+    padding: 22px;
+
+}
+ 
+.Gatepass-8 input {
+    border-radius: 8px;
+    border-color: black;
+    height: 33px;
+    width: 270px;
+    margin: 12px;
+}
+
+label {
+    font-size: larger;
+}
+
+.block input {
+    width: 60px;
+    display: inline-block;
+}
+
+.room {
+    width: 33px;
+}
+
+.room input {
+    width: 142px;
+}
+
+.main-for-start {
+    display: flex;
+    font-family: cabin;
+}

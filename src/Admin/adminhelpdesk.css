@@ -1,0 +1,22 @@
+.helpdesk-container {
+    padding: 20px;
+}
+
+.helpdesk-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.helpdesk-table th,
+.helpdesk-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.helpdesk-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

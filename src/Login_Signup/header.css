@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* p {
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 1.25rem; */
+    /* color: var(--secondary-text-color);
+    line-height: 1.8rem; */
+/* } */
+
+a {
+  color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    font-weight:400
+}
+.container{
+  max-width: 100%;
+}
+.social-icons {
+
+  margin-right: 400px;
+}
+/* Nav Bar */
+.HomePage-container{
+    /* max-width: 1250px; */
+    max-height: fit-content;
+    margin-inline: auto;
+    /* padding-inline: var(--padding-inline-section); */
+    overflow: hidden;
+    /* padding: -20px; */
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.main-nav {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.company-logo img {
+    width: 150px;
+}
+
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap:40px;
+    font-weight: 500;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .main-nav {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: center; /* Center elements horizontally */
+    }
+  
+    .company-logo {
+      margin-bottom: 20px; /* Add space between logo and nav links */
+    }
+  
+    .nav-links {
+      flex-basis: 100%; /* Take full width on small screens */
+      text-align: center; /* Center nav links horizontally */
+    }
+  
+    .nav-links ul {
+      gap: 20px; /* Adjust gap between nav links for smaller screens */
+      display: block;
+    }
+  
+    .nav-toggle {
+      display: block; /* Show the hamburger menu on small screens */
+    }
+  }
+
+
+  /* MAin section Start  */
+
+  .HomePage {
+    display: flex;
+    flex-wrap: wrap; /* Makes sure content fits on one line if window is narrow */
+    width: 100%;
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+.image-container {
+    flex: 0 0 40%; /* Sets the width of the image container to 40% of the parent container */
+    padding: 10px; /* Adds padding to the image container */
+}
+
+.image {
+    width: 100%; /* Makes the image fit the width of the image container */
+}
+
+.content-container {
+    flex: 1; /* Makes the content container fill the remaining space */
+    padding: 20px; /* Modified padding for smaller screens */
+}
+
+.content {
+    font-size: 20px; /* Modified font size for smaller screens */
+    margin-top: 100px;
+}
+
+.view-more {
+    text-align: center; /* Center align the "View More" button */
+    margin-top: 25px; /* Adds margin to the top of the button */
+    margin-right: 90px;
+}
+.Explore{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    font-weight: 700;
+    
+}
+.view-more-button {
+    background-color: #000400; /* Black color for the button */
+    border: none;
+    color: white;   
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border-radius: 20px;
+    margin-right: 500px;
+    width: 120px;
+    text-decoration: none;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    .HomePage {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+    }
+  
+    .image-container {
+        flex: 1 0 auto; /* Reset flex basis for image container */
+        padding: 0; /* Remove padding for smaller screens */
+        text-align: center; /* Center align image */
+    }
+
+    .content-container {
+        flex: 1; /* Makes the content container fill the remaining space */
+        padding: 20px; /* Modified padding for smaller screens */
+    }
+
+    .content {
+        font-size: 16px; /* Modified font size for smaller screens */
+    }
+}
+
+
+
+/* Explore menu  */
+
+/* Base styles */
+
+.Book-Now-button {
+    background-color: #000400;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: start;
+    margin-right: 130px;
+  }
+  
+  .Book-Now-button:hover {
+    color: bisque;
+  }
+  
+  #Hostel-Block {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #Hostel-Block .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-top: 20px;
+    margin-left: 22px;
+  }
+  .outer-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #a6b0b7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  transition: transform 0.3s ease;
+  }
+  
+  .inner-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #252524;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* to position the arrow */
+  }
+  .con2:hover .outer-circle {
+    transform: scale(1.5);
+  }
+  .con2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 111px;
+    margin-bottom: 178px;
+
+  }
+  .contact-form {
+    flex: 0 0 40%;
+    width: 500px;
+    margin: 0;
+    padding: 20px;
+  }
+  .Googlemap{
+    flex: 1;
+
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  #Leave-Message{
+    display: flex;
+  }
+
+.Googlemap{
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  #leavemsg{
+    text-align: center;
+    margin-left: 50px;
+  }
+  #envelope{
+    margin-left: 20px;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  .contact-form input[type="submit"] {
+    width: 50%;
+    padding: 5px;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color:#000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color:#26272b;
+  }
+  
+
+  .inner-circle::after {
+    content: "\2192"; /* Right arrow HTML entity */
+    font-size: 30px; /* Adjust the size of the arrow */
+    color: white; /* Arrow color */
+    position: absolute; /* Positioning the arrow */
+  }
+  
+  #Hostel-Block .pro {
+    width: calc(25% - 30px); /* Adjusted width for responsiveness */
+    padding: 10px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    /* box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02); */
+    margin: 15px;
+    transition: 0.3s ease;
+    position: relative;
+  }
+  .Hostel-a{
+    color: red;
+  }
+  #Hostel-Block .pro:hover {
+    /* box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02); */
+  }
+  
+  #Hostel-Block .pro img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  #Hostel-Block .pro .des {
+    text-align: start;
+    padding: 10px 0;
+  }
+  
+  #Hostel-Block .pro .des span {
+    color: #606063;
+    font-size: 12px;
+  }
+  
+  #Hostel-Block .pro .des h5 {
+    padding-top: 7px;
+    font-size: 14px;
+  }
+  
+  #Hostel-Block .pro .des h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    font-size: x-large;
+    margin-bottom: 12px;
+  }
+ .text-justify{
+    font-size: small;
+    color: white;
+ }
+ .footer-links{
+    font-size: small;
+ }
+ .copyright-text{
+    font-size: large;
+    
+ }
+
+  /* Media queries for responsiveness */
+  
+  @media screen and (max-width: 1200px) {
+    #Hostel-Block .pro {
+      width: calc(33.33% - 30px); /* Adjusted width for medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #Hostel-Block .pro {
+      width: calc(50% - 30px); /* Adjusted width for small screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #Hostel-Block .pro {
+      width: calc(100% - 30px); /* Adjusted width for extra small screens */
+    }
+  }
+
+  
+
+  /* footer.css */
+
+.site-footer {
+    background-color: black;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+.site-footer hr.small {
+    margin: 20px 0;
+}
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    letter-spacing: 0.7px;
+}
+.site-footer a {
+    color: #737373;
+}
+.site-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-links li {
+    display: block;
+}
+.footer-links a {
+    color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.site-footer .social-icons {
+    text-align: right;
+}
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+}
+.copyright-text {
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .site-footer [class^="col-"] {
+        margin-bottom: 30px;
+    }
+    }
+    @media (max-width: 767px) {
+    .site-footer {
+        padding-bottom: 0;
+    }
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center;
+    }
+}
+
+
+    .social-icons {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .social-icons li {
+        display: inline-block;
+        margin-bottom: 4px;
+    }
+    .social-icons a {
+        background-color: #eceeef;
+        color: #818a91;
+        font-size: 16px;
+        display: inline-block;
+        line-height: 44px;
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+   
+    .social-icons a:active,
+    .social-icons a:focus,
+    .social-icons a:hover {
+        color: #fff;
+        background-color: #29aafe;
+    }
+    .social-icons a.facebook:hover {
+        background-color: #3b5998;
+    }
+    .social-icons a.twitter:hover {
+        background-color: #00aced;
+    }
+    .social-icons a.linkedin:hover {
+        background-color: #007bb6;
+    }
+    .social-icons a.dribbble:hover {
+        background-color: #ea4c89;
+    }
+
+
+
+    .selection{
+      height: 35px;
+      width: 115px;
+      border: 2px solid black;
+      border-radius: 12px;
+      display: flex;
+  }
+
+  .Boys{
+     
+      font-family: cabin;
+      padding: 10px;
+      align-content:center ;
+      text-decoration: none;
+  }
+
+  .Boys:hover{
+      color: black;
+      font-size:large;
+      background-color:darkgrey;
+      border-bottom-left-radius: 8px;
+      border-top-left-radius: 8px;
+  }
+  .Girls:hover{
+      background-color: black;
+      font-size:large;
+      color:darkgrey;
+      border-bottom-right-radius: 8px;
+      border-top-right-radius: 8px;
+  }
+
+  .Girls{
+      font-family: cabin;
+      text-decoration: none;
+      align-content: center;
+      width: 55%;
+      text-align: center;
+      color: aliceblue;
+      background-color: black;
+      border-bottom-right-radius: 8px;
+      border-top-right-radius: 8px;
+  }
+    

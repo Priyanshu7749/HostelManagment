@@ -1,0 +1,98 @@
+/* .user-page {
+    margin: 20px;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+/* userpage.css */
+
+.mainuserpage {
+    display: flex;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar .logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar .logout {
+    margin-top: auto;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.user-page {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.user-page h2 {
+    margin-bottom: 20px;
+}
+
+.user-page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-page table th,
+.user-page table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-page table th {
+    background-color: #f2f2f2;
+}
+
+

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+.main-div1812 {
+    display: flex;
+    margin-top: 20px;
+    /* flex-wrap: wrap; Added to wrap items in smaller screens */
+}
+
+.img-div1812 img {
+    height: 370px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    flex: 0;
+}
+
+.description1212 {
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.heading1812 {
+    color: red;
+    margin-bottom: -40px;
+}
+
+.content-side1812 {
+    font-family: 'Cabin', sans-serif;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 600;
+    width: 100%; /* Modified for responsiveness */
+}
+
+.divide1,
+.divide2 {
+    margin-left: 80px;
+}
+
+.hostelfees {
+    margin: 50px;
+    width: 95%; /* Modified for responsiveness */
+}
+
+.instrustion {
+    font-family: 'Cabin', sans-serif;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: large;
+    width: 100%; /* Modified for responsiveness */
+}
+
+.note1 {
+    font-size: x-large;
+    margin: 15px;
+}
+
+.instruction11 {
+    margin-left: 20px;
+}
+
+.submain11 {
+    margin-left: 50px;
+}
+
+.main-division {
+    justify-content: center;
+}
+
+.boxes {
+    margin-left: 140px;
+}
+
+ul li {
+    padding: 30px;
+    text-align: justify;
+    padding: 3px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.boxS-1,
+.boxS-2 {
+    border: 2px solid black;
+    display: inline-block;
+    padding-left: 30px;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.boxS-2 {
+    margin-left: 64px;
+}
+
+.mode- {
+    margin-left: 90px;
+}
+
+.heading-for-booking-facility {
+    margin-left: 32px;
+}
+
+.read-more,
+.read-more-1 {
+    color: blue;
+    margin-left: 70%; /* Modified for responsiveness */
+    list-style: none;
+}
+
+.mode-payment {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.feepayment {
+    font-size: large;
+    margin: 16px;
+}
+.fee-payment-info{
+    margin-left: 80px;
+}
+.fee-payment-info1{
+    margin-left: 30px;
+}
+
+
+.fee-payment-info1,
+.fee-payment-info {
+    font-size: large;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.rednote3{
+    margin-left: 50px;
+}
+
+.rednote2{
+    margin-left: 25px;
+}
+.rednote,
+.rednote1 {
+    color: red;
+}
+
+
+
+
+hr {
+    border-width: 2px;
+}
+
+.heading-gallery3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.images {
+    margin-left: 10%; /* Modified for responsiveness */
+    margin-left: 300px;
+}
+
+.images-1 {
+    height: 300px;
+    width: 350px;
+}
+.images-2 {
+    margin-top: 33px;
+    margin-left: 150px;
+    height: 300px;
+    width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Apply styles for screens smaller than 768px (tablets and phones) */
+    .main-div1812 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-div1812 img {
+        margin: 20px auto;
+    }
+
+    .content-side1812,
+    .instrustion,
+    .hostelfees {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .read-more,
+    .read-more-1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .images {
+        margin-left: 0;
+    }
+}
