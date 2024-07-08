@@ -8,7 +8,7 @@
 /* Left half */
 .left-half {
   flex: 1; /* Allocate equal space to left and right halves */
-  background-image: url('C:\Users\priyanshu199\OneDrive\Desktop\cp2\public\images\login.png'); /* Set login image as background */
+  background-image: url('/public/images/login.png'); /* Set login image as background */
   background-size: cover; /* Ensure image covers the entire area */
   background-position: center; /* Center the image horizontally and vertically */
 }

@@ -146,7 +146,7 @@ input[type="password"] {
 .image-section {
   flex: 1;
   /* Allocate space for the image section */
-  background-image: url('C:\Users\priyanshu199\OneDrive\Desktop\cp2\public\images\signup.png');
+  background-image: url('/public/images/signup.png');
   /* Set background image */
   background-size: cover;
   /* Ensure image covers the entire area */
