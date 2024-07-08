@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from 'C:/Users/priyanshu199/OneDrive/Desktop/cp2/src/Login_Signup/firebase.js'; // Import the Firestore instance
+import { db } from '../Login_Signup/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
 

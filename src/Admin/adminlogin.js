@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './adminlogin.css';
-import { auth } from 'C:/Users/priyanshu199/OneDrive/Desktop/cp2/src/Login_Signup/firebase.js';
+
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { Link } from 'react-router-dom'; // Import Link component
 

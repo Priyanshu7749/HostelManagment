@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from 'C:/Users/priyanshu199/OneDrive/Desktop/cp2/src/Login_Signup/firebase.js'; // Adjust the path to your firebase config
+import { db } from '../Login_Signup/firebase';
 import './adminhelpdesk.css'; // Create and style this CSS file as needed
 import { collection, getDocs } from 'firebase/firestore';
 import { Link } from 'react-router-dom';

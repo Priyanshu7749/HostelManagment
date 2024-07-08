@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from 'C:/Users/priyanshu199/OneDrive/Desktop/cp2/src/Login_Signup/firebase.js';
+import { db } from '../Login_Signup/firebase';
 import './userpage.css';
 import { Link } from 'react-router-dom';
 
