@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 import { auth } from './firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import logo from '../images/logo.png'
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -38,7 +39,7 @@ const Login = () => {
       <div className="left-half"></div>
       <div className="right-half">
         <div className="logo">
-          <img src="./images/logo.png" alt="login" className="loginimg" />
+          <img src={logo} alt="login" className="loginimg" />
           <p>"Start your hostel journey with
             a quick Login."</p>
         </div>

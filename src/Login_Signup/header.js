@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './header.css'; // Assuming your CSS file is named HomePage.css
 import GoogleMapComponent from './GoogleMapComponent';
 import { Link } from 'react-router-dom';
-import logo from 'C:/Users/priyanshu199/OneDrive/Desktop/HostelManagment/public/images/Logo.jpg'
+
 
 function HomePage() {
   const [name, setName] = useState('');
@@ -17,9 +17,9 @@ function HomePage() {
     <div className="HomePage-container">
       <nav>
         <div className="container main-nav flex">
-          <a href="/" className="company-logo">
-            <img src={logo} alt="company logo" />
-          </a>
+          <Link to='/' className="company-logo">
+            <img src="./images/logo.png" alt="company logo" />
+          </Link>
           <div className="nav-links" id="nav-links">
             <ul className="flex">
               <li><p><Link to="/">Home</Link></p></li>

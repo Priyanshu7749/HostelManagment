@@ -4,7 +4,7 @@ import './Signup.css';
 import { auth, db } from './firebase'; // Import the Auth and Firestore modules
 import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore'; 
-
+import logo from '../images/logo.png'
 const Signup = () => {
 
   const [userData, setUserData] = useState({
@@ -96,7 +96,7 @@ const Signup = () => {
         <center>
           <div class="form-container">
             <img
-              src="./images/logo.png"
+              src={logo}
               alt="Hostel Illustration"
               class="image"
             />
