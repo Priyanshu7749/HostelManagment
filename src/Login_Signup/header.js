@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './header.css'; // Assuming your CSS file is named HomePage.css
 import GoogleMapComponent from './GoogleMapComponent';
 import { Link } from 'react-router-dom';
-import logo from 'C:/Logo.jpg'
+import logo from 'C:/Users/priyanshu199/OneDrive/Desktop/HostelManagment/public/images/Logo.jpg'
 
 function HomePage() {
   const [name, setName] = useState('');
