@@ -100,7 +100,7 @@ function GatePassForm() {
       <nav>
         <div className="container main-nav flex">
           <a href="#" className="company-logo">
-            <img src="/images/Logo.png" alt="company logo" /> {/* Update path */}
+            <img src="./images/logo.png" alt="company logo" /> {/* Update path */}
           </a>
           <div className="nav-links" id="nav-links">
             <ul className="flex">

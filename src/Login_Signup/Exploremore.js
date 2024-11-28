@@ -8,7 +8,7 @@ function Exploremore() {
             <nav>
                 <div className="container main-nav flex">
                     <a href="#" className="company-logo">
-                        <img src="./images/Logo.png" alt="company logo" />
+                        <img src="./images/logo.png" alt="company logo" />
                     </a>
                     <div className="nav-links" id="nav-links">
                         <ul className="flex">

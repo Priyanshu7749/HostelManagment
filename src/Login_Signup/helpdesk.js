@@ -85,7 +85,7 @@ function Helpdesk() {
             <nav>
                 <div className="container main-nav flex">
                     <Link to="/" className="company-logo">
-                        <img src="/images/Logo.png" alt="company logo" />
+                        <img src="./images/logo.png" alt="company logo" />
                     </Link>
                     <div className="nav-links" id="nav-links">
                         <ul className="flex">
